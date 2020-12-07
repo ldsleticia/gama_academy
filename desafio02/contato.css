@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin:  0;
+    padding: 0;
+    border: 0;
+}
+
+ body{
+     font-family: "Roboto", sans-serif;
+ }
+
+header{
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+}
+
+.home{
+    text-decoration: none;
+    color: #8BB53E;
+    font-weight: bolder;
+}
+
+.sobre{
+    text-decoration: none;
+    color: #8BB53E;
+    font-weight: bolder;
+}
+
+.contato{
+    text-decoration: none;
+    color: #8BB53E;
+    font-weight: bolder;
+}
+
+.saibaMais{
+    text-decoration: none;
+    color: #8BB53E;
+    font-weight: bolder;
+}
+
+/* início do estilo do contato */
+
+h1{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 32px;
+    
+}
+
+.input{
+    width: 30%;
+	padding: 20px;
+	border: 3px solid #14FC56;
+	margin-bottom: 10px;
+    border-radius: 5px;
+    margin-left: 32%;
+    font-size: 15px;
+}
+
+.nome{
+    background: #FFFFFF;
+    padding: 3px 3px 3px 25px;
+} 
+
+.email{
+    background: #FFFFFF;
+    padding: 3px 3px 3px 25px;
+}
+
+.telefone{
+    background: #FFFFFF;
+    padding: 3px 3px 3px 25px;
+}
+
+.button{
+    width: 30%; /* muda o tamanho para o lado do quadro */
+	padding: 20px; /* muda o tamanho pra cima e pra baixo do quadro onde coloca informação */
+	background-color:  #14FC56;
+	margin-bottom: 10px;
+    border-radius: 50px;
+    margin-left: 33%;
+    outline: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+span{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #14FC56;
+}
